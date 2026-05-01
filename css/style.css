@@ -302,6 +302,13 @@ img { max-width: 100%; height: auto; display: block; }
 
 .home-description { margin-bottom: var(--mb-2); max-width: 500px; line-height: 1.8; }
 
+.hero-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: var(--mb-2-5);
+}
+
 .home-social { display: flex; column-gap: 1rem; margin-bottom: var(--mb-2-5); }
 .social-link {
     width: 44px; height: 44px;
